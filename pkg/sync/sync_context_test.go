@@ -23,14 +23,14 @@ import (
 	testcore "k8s.io/client-go/testing"
 	"k8s.io/klog/v2/klogr"
 
-	"github.com/argoproj/gitops-engine/pkg/diff"
-	"github.com/argoproj/gitops-engine/pkg/health"
-	"github.com/argoproj/gitops-engine/pkg/sync/common"
-	synccommon "github.com/argoproj/gitops-engine/pkg/sync/common"
-	"github.com/argoproj/gitops-engine/pkg/utils/kube"
-	"github.com/argoproj/gitops-engine/pkg/utils/kube/kubetest"
-	. "github.com/argoproj/gitops-engine/pkg/utils/testing"
-	testingutils "github.com/argoproj/gitops-engine/pkg/utils/testing"
+	"github.com/miked63017/gitops-engine/pkg/diff"
+	"github.com/miked63017/gitops-engine/pkg/health"
+	"github.com/miked63017/gitops-engine/pkg/sync/common"
+	synccommon "github.com/miked63017/gitops-engine/pkg/sync/common"
+	"github.com/miked63017/gitops-engine/pkg/utils/kube"
+	"github.com/miked63017/gitops-engine/pkg/utils/kube/kubetest"
+	. "github.com/miked63017/gitops-engine/pkg/utils/testing"
+	testingutils "github.com/miked63017/gitops-engine/pkg/utils/testing"
 )
 
 var standardVerbs = v1.Verbs{"create", "delete", "deletecollection", "get", "list", "patch", "update", "watch"}

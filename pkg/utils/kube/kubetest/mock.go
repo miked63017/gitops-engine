@@ -15,7 +15,7 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"k8s.io/kubectl/pkg/util/openapi"
 
-	"github.com/argoproj/gitops-engine/pkg/utils/kube"
+	"github.com/miked63017/gitops-engine/pkg/utils/kube"
 )
 
 type KubectlOutput struct {

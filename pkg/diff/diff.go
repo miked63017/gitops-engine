@@ -22,11 +22,11 @@ import (
 	"sigs.k8s.io/structured-merge-diff/v4/fieldpath"
 	"sigs.k8s.io/structured-merge-diff/v4/typed"
 
-	"github.com/argoproj/gitops-engine/internal/kubernetes_vendor/pkg/api/v1/endpoints"
-	"github.com/argoproj/gitops-engine/pkg/sync/resource"
-	jsonutil "github.com/argoproj/gitops-engine/pkg/utils/json"
-	gescheme "github.com/argoproj/gitops-engine/pkg/utils/kube/scheme"
-	kubescheme "github.com/argoproj/gitops-engine/pkg/utils/kube/scheme"
+	"github.com/miked63017/gitops-engine/internal/kubernetes_vendor/pkg/api/v1/endpoints"
+	"github.com/miked63017/gitops-engine/pkg/sync/resource"
+	jsonutil "github.com/miked63017/gitops-engine/pkg/utils/json"
+	gescheme "github.com/miked63017/gitops-engine/pkg/utils/kube/scheme"
+	kubescheme "github.com/miked63017/gitops-engine/pkg/utils/kube/scheme"
 )
 
 const (

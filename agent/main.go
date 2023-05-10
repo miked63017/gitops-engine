@@ -20,10 +20,10 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/klog/v2/klogr"
 
-	"github.com/argoproj/gitops-engine/pkg/cache"
-	"github.com/argoproj/gitops-engine/pkg/engine"
-	"github.com/argoproj/gitops-engine/pkg/sync"
-	"github.com/argoproj/gitops-engine/pkg/utils/kube"
+	"github.com/miked63017/gitops-engine/pkg/cache"
+	"github.com/miked63017/gitops-engine/pkg/engine"
+	"github.com/miked63017/gitops-engine/pkg/sync"
+	"github.com/miked63017/gitops-engine/pkg/utils/kube"
 )
 
 const (

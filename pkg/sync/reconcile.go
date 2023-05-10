@@ -4,11 +4,11 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/types"
 
-	hookutil "github.com/argoproj/gitops-engine/pkg/sync/hook"
-	"github.com/argoproj/gitops-engine/pkg/sync/ignore"
-	"github.com/argoproj/gitops-engine/pkg/utils/kube"
-	kubeutil "github.com/argoproj/gitops-engine/pkg/utils/kube"
-	"github.com/argoproj/gitops-engine/pkg/utils/text"
+	hookutil "github.com/miked63017/gitops-engine/pkg/sync/hook"
+	"github.com/miked63017/gitops-engine/pkg/sync/ignore"
+	"github.com/miked63017/gitops-engine/pkg/utils/kube"
+	kubeutil "github.com/miked63017/gitops-engine/pkg/utils/kube"
+	"github.com/miked63017/gitops-engine/pkg/utils/text"
 )
 
 func splitHooks(target []*unstructured.Unstructured) ([]*unstructured.Unstructured, []*unstructured.Unstructured) {

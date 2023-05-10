@@ -27,13 +27,13 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"k8s.io/kubectl/pkg/util/openapi"
 
-	"github.com/argoproj/gitops-engine/pkg/diff"
-	"github.com/argoproj/gitops-engine/pkg/health"
-	"github.com/argoproj/gitops-engine/pkg/sync/common"
-	"github.com/argoproj/gitops-engine/pkg/sync/hook"
-	resourceutil "github.com/argoproj/gitops-engine/pkg/sync/resource"
-	"github.com/argoproj/gitops-engine/pkg/utils/kube"
-	kubeutil "github.com/argoproj/gitops-engine/pkg/utils/kube"
+	"github.com/miked63017/gitops-engine/pkg/diff"
+	"github.com/miked63017/gitops-engine/pkg/health"
+	"github.com/miked63017/gitops-engine/pkg/sync/common"
+	"github.com/miked63017/gitops-engine/pkg/sync/hook"
+	resourceutil "github.com/miked63017/gitops-engine/pkg/sync/resource"
+	"github.com/miked63017/gitops-engine/pkg/utils/kube"
+	kubeutil "github.com/miked63017/gitops-engine/pkg/utils/kube"
 )
 
 type reconciledResource struct {

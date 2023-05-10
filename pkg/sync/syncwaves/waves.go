@@ -5,8 +5,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	"github.com/argoproj/gitops-engine/pkg/sync/common"
-	helmhook "github.com/argoproj/gitops-engine/pkg/sync/hook/helm"
+	"github.com/miked63017/gitops-engine/pkg/sync/common"
+	helmhook "github.com/miked63017/gitops-engine/pkg/sync/hook/helm"
 )
 
 func Wave(obj *unstructured.Unstructured) int {
